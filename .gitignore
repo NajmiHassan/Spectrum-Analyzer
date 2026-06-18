@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Audio you drop in to test analyze_file.py (keep the repo light)
+*.wav
+*.mp3
+*.flac
+*.ogg
+# ...but DO keep the example image
+!example_output.png

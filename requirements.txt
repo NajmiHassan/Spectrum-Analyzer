@@ -1,0 +1,9 @@
+# Core math + plotting (used everywhere)
+numpy>=1.24
+matplotlib>=3.7
+
+# Live microphone capture (used by spectrum_analyzer.py)
+sounddevice>=0.4
+
+# Audio file loading (used by analyze_file.py, the offline bonus script)
+librosa>=0.10
