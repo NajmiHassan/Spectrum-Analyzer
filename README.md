@@ -234,3 +234,7 @@ This project gives you the frequency domain. Natural follow-ups, each building o
    first taste of streaming signal processing.
 
 ---
+
+## License
+
+Released under the MIT License. Use it, learn from it, build on it freely.
