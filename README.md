@@ -1,10 +1,7 @@
 # Real-Time Audio Spectrum Analyzer
 
 A live audio spectrum analyzer in Python. Speak, sing, whistle, or play music into
-your microphone and watch its frequency content move in real time. This is the
-classic "first DSP project": with about 150 lines of well-commented code it teaches
-the four ideas that nearly all of digital signal processing is built on —
-**sampling, windowing, the FFT, and the frequency domain**.
+your microphone and watch its frequency content move in real time.
 
 No special hardware is needed. Your laptop's built-in microphone is enough.
 
@@ -16,26 +13,7 @@ input will look just like this, but moving.*
 
 ---
 
-## What you'll learn
-
-By the time this runs and you understand it, you'll have hands-on intuition for:
-
-- **Sampling** — how continuous sound becomes a stream of numbers, and why the
-  sample rate sets a hard ceiling (the *Nyquist frequency*) on the highest pitch
-  you can represent.
-- **Windowing** — why you can't just feed a raw chunk of audio to an FFT, and how a
-  Hann window tames the smearing (*spectral leakage*) that otherwise appears.
-- **The FFT** — the Fast Fourier Transform: the algorithm that turns a block of
-  samples (time domain) into a list of frequency strengths (frequency domain).
-- **The frequency domain** — reading a spectrum: where peaks are, what dB means, and
-  why a log frequency axis matches how we hear.
-
-These same ideas power the next projects on your list (filter design, DTMF decoding,
-audio effects), so the effort compounds.
-
----
-
-## How it works, in one paragraph
+## How it works?
 
 Sound reaching your microphone is sampled 44,100 times per second into a long stream
 of numbers. We slice off a small block (4,096 samples ≈ 93 ms), taper its edges with
@@ -256,7 +234,3 @@ This project gives you the frequency domain. Natural follow-ups, each building o
    first taste of streaming signal processing.
 
 ---
-
-## License
-
-Released under the MIT License. Use it, learn from it, build on it freely.
